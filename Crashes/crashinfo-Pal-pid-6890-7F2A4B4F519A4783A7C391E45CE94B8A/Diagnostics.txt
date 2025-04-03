@@ -1,0 +1,19 @@
+Generating report for minidump
+
+Application version 5.1.1.0
+ ... built from changelist 0
+
+OS version Linux 5.15.0-46-generic (network name: www.lezgamepalworld.org)
+Running 8 x86_64 processors (8 logical cores)
+Exception was ""
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

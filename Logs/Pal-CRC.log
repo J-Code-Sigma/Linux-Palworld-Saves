@@ -1,0 +1,121 @@
+﻿Log file open, 04/03/25 23:11:25
+LogPakFile: Display: Found Pak file ../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak.
+LogPakFile: Display: Mounted Pak file '../../../Engine/Programs/CrashReportClient/Content/Paks/CrashReportClient.pak', mount point: '../../../Engine/'
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogInit: Build: ++UE5+Release-5.1-CL-0
+LogInit: Engine Version: 5.1.1-0+++UE5+Release-5.1
+LogInit: Compatible Engine Version: 5.1.0-0+++UE5+Release-5.1
+LogInit: Net CL: 0
+LogInit: OS: Ubuntu 22.04.1 LTS (5.15.0-46-generic), CPU: AMD EPYC 7542 32-Core Processor, GPU: UnknownVendor PCI-id: 1013-00b8 (1af4-1100)
+LogInit: Compiled (64-bit): Mar 12 2025 10:58:08
+LogInit: Compiled with Clang: 13.0.1 (https://github.com/llvm/llvm-project 75e33f71c2dae584b13a7d1186ae0a038ba98838)
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE5+Release-5.1
+LogInit: Command Line:  -Abslog="/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Logs/Pal-CRC.log" -Unattended -ImplicitSend "/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Crashes/crashinfo-Pal-pid-6890-7F2A4B4F519A4783A7C391E45CE94B8A/" -unattended
+LogInit: Base Directory: /home/steam/Steam/steamapps/common/PalServer/Engine/Binaries/Linux/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2025.04.03-23.11.25:230][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2025.04.03-23.11.25:230][  0]LogInit: Unix hardware info:
+[2025.04.03-23.11.25:230][  0]LogInit:  - we are the first instance of this executable
+[2025.04.03-23.11.25:230][  0]LogInit:  - this process' id (pid) is 81821, parent process' id (ppid) is 6890
+[2025.04.03-23.11.25:230][  0]LogInit:  - we are not running under debugger
+[2025.04.03-23.11.25:230][  0]LogInit:  - machine network name is 'www.lezgamepalworld.org'
+[2025.04.03-23.11.25:230][  0]LogInit:  - user name is 'steam' (steam)
+[2025.04.03-23.11.25:230][  0]LogInit:  - we're logged in locally
+[2025.04.03-23.11.25:230][  0]LogInit:  - we're running with rendering
+[2025.04.03-23.11.25:230][  0]LogInit:  - CPU: AuthenticAMD 'AMD EPYC 7542 32-Core Processor' (signature: 0x830F10)
+[2025.04.03-23.11.25:230][  0]LogInit:  - Number of physical cores available for the process: 8
+[2025.04.03-23.11.25:230][  0]LogInit:  - Number of logical cores available for the process: 8
+[2025.04.03-23.11.25:230][  0]LogInit:  - Cache line size: 64
+[2025.04.03-23.11.25:230][  0]LogInit:  - GPU Brand Info: UnknownVendor PCI-id: 1013-00b8 (1af4-1100)
+[2025.04.03-23.11.25:230][  0]LogInit:  - Memory allocator used: Mimalloc
+[2025.04.03-23.11.25:230][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2025.04.03-23.11.25:230][  0]LogInit:  - This is an internal build.
+[2025.04.03-23.11.25:230][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2025.04.03-23.11.25:230][  0]LogInit: Unix-specific commandline switches:
+[2025.04.03-23.11.25:230][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2025.04.03-23.11.25:230][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2025.04.03-23.11.25:230][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2025.04.03-23.11.25:230][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2025.04.03-23.11.25:230][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2025.04.03-23.11.25:230][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2025.04.03-23.11.25:230][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2025.04.03-23.11.25:230][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2025.04.03-23.11.25:230][  0]LogInit:  -crashhandlerstacksize - Allows setting crash handler stack sizes (204800)
+[2025.04.03-23.11.25:230][  0]LogInit:  -noexclusivelockonwrite - disables marking files created by the engine as exclusive locked while the engine has them opened
+[2025.04.03-23.11.25:230][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2025.04.03-23.11.25:230][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2025.04.03-23.11.25:230][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2025.04.03-23.11.25:230][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (16000 MB, 16384572 KB, 16777801728 bytes)
+[2025.04.03-23.11.25:230][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2025.04.03-23.11.25:230][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2025.04.03-23.11.25:230][  0]LogInit:  - PageSize 4096
+[2025.04.03-23.11.25:230][  0]LogInit:  - BinnedPageSize 65536
+[2025.04.03-23.11.25:234][  0]LogUObjectArray: 419 objects as part of root set at end of initial load.
+[2025.04.03-23.11.25:234][  0]LogUObjectAllocator: 89056 out of 0 bytes used by permanent object pool.
+[2025.04.03-23.11.25:234][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.04.03-23.11.25:240][  0]LogPaths: Warning: No paths for game localization data were specifed in the game configuration.
+[2025.04.03-23.11.25:240][  0]LogInit: Using OS detected language (en-US).
+[2025.04.03-23.11.25:240][  0]LogInit: Using OS detected locale (en-US).
+[2025.04.03-23.11.25:240][  0]LogInit: Warning: No paths for engine localization data were specifed in the engine configuration.
+[2025.04.03-23.11.25:240][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2025.04.03-23.11.25:240][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2025.04.03-23.11.25:240][  0]LogInit: Using OS detected language (en-US).
+[2025.04.03-23.11.25:240][  0]LogInit: Using OS detected locale (en-US).
+[2025.04.03-23.11.25:240][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2025.04.03-23.11.25:240][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2025.04.03-23.11.25:240][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000400 seconds
+[2025.04.03-23.11.25:240][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
+[2025.04.03-23.11.25:240][  0]CrashReportCoreLog: CrashReportReceiver disabled
+[2025.04.03-23.11.25:240][  0]CrashReportCoreLog: DataRouterUrl: https://o1291919.ingest.sentry.io/api/6513339/unreal/4a1a3921f51f4975b4cf8dd19022cb20/
+[2025.04.03-23.11.25:240][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2025.04.03-23.11.25:240][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2025.04.03-23.11.25:240][  0]LogCrashDebugHelper: DepotName: //UE5/Release-5.1
+[2025.04.03-23.11.25:240][  0]LogCrashDebugHelper: BuiltFromCL: 0
+[2025.04.03-23.11.25:240][  0]LogCrashDebugHelper: EngineVersion: 5.1.1-0+++UE5+Release-5.1
+[2025.04.03-23.11.25:240][  0]LogCrashDebugHelper: BuildVersion: ++UE5+Release-5.1-CL-0
+[2025.04.03-23.11.26:212][  0]CrashReportCoreLog: Got 3 pending files to upload from 'crashinfo-Pal-pid-6890-7F2A4B4F519A4783A7C391E45CE94B8A'
+[2025.04.03-23.11.26:212][  0]CrashReportCoreLog: State change from Ready to SendingFiles
+[2025.04.03-23.11.26:212][  0]CrashReportCoreLog: CompressAndSendData have 3 pending files
+[2025.04.03-23.11.26:212][  0]CrashReportCoreLog: CompressAndSendData compressing 152 bytes ('/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Crashes/crashinfo-Pal-pid-6890-7F2A4B4F519A4783A7C391E45CE94B8A/CrashReportClient.ini')
+[2025.04.03-23.11.26:213][  0]CrashReportCoreLog: CompressAndSendData compressing 343 bytes ('/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Crashes/crashinfo-Pal-pid-6890-7F2A4B4F519A4783A7C391E45CE94B8A/Diagnostics.txt')
+[2025.04.03-23.11.26:213][  0]CrashReportCoreLog: CompressAndSendData compressing 6428 bytes ('/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Crashes/crashinfo-Pal-pid-6890-7F2A4B4F519A4783A7C391E45CE94B8A/CrashContext.runtime-xml')
+[2025.04.03-23.11.26:225][  0]LogInit: Using libcurl 7.83.1
+[2025.04.03-23.11.26:225][  0]LogInit:  - built for Linux
+[2025.04.03-23.11.26:225][  0]LogInit:  - supports SSL with OpenSSL/1.1.1n
+[2025.04.03-23.11.26:225][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.12
+[2025.04.03-23.11.26:225][  0]LogInit:  - other features:
+[2025.04.03-23.11.26:225][  0]LogInit:      CURL_VERSION_SSL
+[2025.04.03-23.11.26:225][  0]LogInit:      CURL_VERSION_LIBZ
+[2025.04.03-23.11.26:225][  0]LogInit:      CURL_VERSION_IPV6
+[2025.04.03-23.11.26:225][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2025.04.03-23.11.26:225][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2025.04.03-23.11.26:225][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2025.04.03-23.11.26:225][  0]LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+[2025.04.03-23.11.26:225][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2025.04.03-23.11.26:225][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2025.04.03-23.11.26:225][  0]LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+[2025.04.03-23.11.26:225][  0]LogInit:  - LocalHostAddr = Default
+[2025.04.03-23.11.26:225][  0]LogInit:  - BufferSize = 65536
+[2025.04.03-23.11.26:225][  0]CrashReportCoreLog: Sending HTTP request: https://o1291919.ingest.sentry.io/api/6513339/unreal/4a1a3921f51f4975b4cf8dd19022cb20/?AppID=CrashReporter&AppVersion=5.1.1-0%2B%2B%2BUE5%2BRelease-5.1&AppEnvironment=Release&UploadType=crashreports&UserID=da22c5b88e7e42878bac05c5c8b46e4f-000003e8%7C%7Cda22c5b88e7e42878bac05c5c8b46e4f
+[2025.04.03-23.11.26:312][  0]CrashReportCoreLog: OnProcessRequestComplete(), State=SendingFiles bSucceeded=1
+[2025.04.03-23.11.26:312][  0]CrashReportCoreLog: State change from SendingFiles to SendingFiles
+[2025.04.03-23.11.26:312][  0]CrashReportCoreLog: All uploads done
+[2025.04.03-23.11.26:312][  0]CrashReportCoreLog: State change from SendingFiles to Finished
+[2025.04.03-23.11.27:268][  0]CrashReportCoreLog: Final state (Receiver) = Finished
+[2025.04.03-23.11.27:268][  0]CrashReportCoreLog: Final state (Receiver) = Unknown UploadState value
+[2025.04.03-23.11.27:268][  0]LogCore: Engine exit requested (reason: CrashReportClientApp RequestExit)
+[2025.04.03-23.11.27:268][  0]LogExit: Preparing to exit.
+[2025.04.03-23.11.27:269][  0]LogExit: Object subsystem successfully closed.
+[2025.04.03-23.11.27:270][  0]LogModuleManager: Shutting down and abandoning module HTTP (12)
+[2025.04.03-23.11.27:274][  0]LogModuleManager: Shutting down and abandoning module SSL (11)
+[2025.04.03-23.11.27:275][  0]LogModuleManager: Shutting down and abandoning module CrashDebugHelper (8)
+[2025.04.03-23.11.27:275][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (6)
+[2025.04.03-23.11.27:275][  0]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2025.04.03-23.11.27:275][  0]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2025.04.03-23.11.27:277][  0]LogExit: Exiting.
+[2025.04.03-23.11.27:285][  0]Log file closed, 04/03/25 23:11:27

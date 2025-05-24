@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>213C3325D32F419D9AC462E86B36AC84</ExecutionGuid>
+		<CrashGUID>UECC-Linux-FF6015F9B7D4469C9865E461005DF245_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Hang</CrashType>
+		<ErrorMessage>Hang detected on GameThread: 0x0000000006ec959b PalServer-Linux-Shipping!ThreadStackWalker(int, siginfo_t*, void*) [C:/works/Pal-UE-EngineSource/Engine/Source/./Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:1034] 0x00007f9185f4a520 libc.so.6!UnknownFunction(0x4251f) 0x0000000006ccd6de PalServer-Linux-Shipping!UPalWorldObjectRecord_MapObjectSpawnerInStage::CollectSaveData(UPalWorldSaveGame*) [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalWorldObjectRecordWorldSubsystem.cpp:170] 0x0000000006ccc3d5 PalServer-Linux-Shipping!UPalWorldObjectRecordWorldSubsystem::CollectWorldSaveData(UPalWorldSaveGame*, TDelegate&lt;void (bool), FDefaultDelegateUserPolicy&gt;) const [D:/works/repos/Pal_SVN/Pal-UE-App/Source/Pal/PalWorldObjectRecordWorldSubsystem.cpp:61] Check log for full callstack.</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>6890</ProcessId>
+		<SecondsSinceStart>694934</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>PalServer-Linux-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>LinuxServer</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Server</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>Pal -port=8211 -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en_US</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-Linux-Shipping</Symbols>
+		<IsUERelease>false</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>/home/steam/Steam/steamapps/common/PalServer/Pal/Binaries/Linux/</BaseDir>
+		<RootDir>/home/steam/Steam/steamapps/common/PalServer/</RootDir>
+		<MachineId>DA22C5B88E7E42878BAC05C5C8B46E4F-000003E8</MachineId>
+		<LoginId>da22c5b88e7e42878bac05c5c8b46e4f-000003e8</LoginId>
+		<HostName>www.lezgamepalworld.org</HostName>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>8</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD EPYC 7542 32-Core Processor</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>UnknownVendor PCI-id: 1013-00b8 (1af4-1100)</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Ubuntu 22.04.1 LTS</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>5.15.0-46-generic</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>16777801728</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>0</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>PalServer-Linux-Shipping 0x0000000000200000 + 6cc959b libc.so 0x00007f9185f08000 + 42520 PalServer-Linux-Shipping 0x0000000000200000 + 6acd6de PalServer-Linux-Shipping 0x0000000000200000 + 6acc3d5 PalServer-Linux-Shipping 0x0000000000200000 + 69aad39 PalServer-Linux-Shipping 0x0000000000200000 + 69a9833 PalServer-Linux-Shipping 0x0000000000200000 + 69a8609 PalServer-Linux-Shipping 0x0000000000200000 + 9dc107c PalServer-Linux-Shipping 0x0000000000200000 + 98ee21c PalServer-Linux-Shipping 0x0000000000200000 + 97362c4 PalServer-Linux-Shipping 0x0000000000200000 + 3cb3763 PalServer-Linux-Shipping 0x0000000000200000 + 3cb433a PalServer-Linux-Shipping 0x0000000000200000 + a273480 libc.so 0x00007f9185f08000 + 29d90 libc.so 0x00007f9185f08000 + 29e40 PalServer-Linux-Shipping 0x0000000000200000 + 3cb2029</PCallStack>
+		<PCallStackHash>9A18BD9CDD42DAE237407BCB54057F7715BB3BFD</PCallStackHash>
+		<TimeOfCrash>638793186852360000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Linux [Ubuntu 22.04.1 LTS 5.15.0-46-generic 64b]</PlatformFullName>
+		<CPUBrand>AMD EPYC 7542 32-Core Processor</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules />
+	</RuntimeProperties>
+	<PlatformProperties>
+		<CrashSignal>0</CrashSignal>
+		<CrashSignalName>Unknown signal 0</CrashSignalName>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>LinuxServerNo errors</MatchingDPStatus>
+		<RHI.RHIName>NullRHI</RHI.RHIName>
+		<DeviceProfile.Name>LinuxServer</DeviceProfile.Name>
+		<NumClients>0</NumClients>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;version&quot;: &quot;0.5.1.68353&quot;, &quot;callstackhash&quot;: &quot;DA39A3EE5E6B4B0D3255BFEF95601890AFD80709&quot;,&quot;hostname&quot;: &quot;www.lezgamepalworld.org&quot;,&quot;revision&quot;: &quot;68353&quot;, &quot;build_config&quot;: &quot;shipping&quot;, &quot;platform&quot;: &quot;Linux&quot;, &quot;engine_mode&quot;: &quot;Server&quot;, &quot;session_id&quot;: &quot;steam_null_1743026957&quot;, &quot;pak_files&quot;: &quot;Pal-LinuxServer.pak, &quot;, &quot;is_use_mods&quot;: &quot;false&quot;, &quot;players&quot;: &quot;0&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>
